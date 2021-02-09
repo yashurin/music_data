@@ -1,7 +1,7 @@
 # Music Data Demo Application
 
 Music Data Demo is a simple application to aggregate and reconcile the metadata for musical works.
-It is created with `Django`, `Docker` and `PostgreSQL`.
+It is created with `Django`, `Docker` and `PostgreSQL`. The code was tested at macOS.
 
 To run the application, Docker and git are needed.
 
@@ -12,9 +12,13 @@ After Music Works metadata is processed, it can be obtained via URLs or API call
 
 ## Building and Running the Application
 
-1. After downloading application from github or unpacking the `.zip` archive, go to the `music_data` folder in terminal. The folder should contain, along with other files, `Dockerfile` and `manage.py`. 
+1. You may clone the `git` repository from
 
-`cd music_data`
+`git clone git@github.com:yashurin/music_data.git` 
+
+or unpack the `.zip` archive. Then, go to the `music_data` subfolder which contains, along with other files, `Dockerfile` and `manage.py`. 
+
+`cd music_data/new/music_data` (for git) or `cd music_data` (for zipped archive).
 
 2. Build the Docker container:
 
